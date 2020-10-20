@@ -1,0 +1,33 @@
+.sustainability__section-container {
+  padding: 10vh 5vw 15vh 5vw;
+}
+.sustainabilty__section-text-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+.sustainability__section-header {
+  padding-bottom: 2vh;
+}
+.sustainability__section-header h1 {
+  text-align: center;
+  font-size: 6vw;
+  color: #003764;
+  font-family: "Gill Sans";
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+.sustainability__section-subheader {
+  text-align: center;
+  font-size: 1vw;
+  color: #003764;
+  font-family: "Calibri";
+  width: 70%;
+  margin: 0 auto;
+}
+.sustainability__section-subtext {
+  text-align: center;
+  font-size: 1vw;
+  font-family: "Calibri";
+  color: #4db1c7;
+}

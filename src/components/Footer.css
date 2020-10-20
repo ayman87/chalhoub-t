@@ -1,0 +1,108 @@
+.footer-container {
+  background-color: #012c52;
+  padding: 10vh 5vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo img {
+  width: 10vw;
+}
+.footer-links-container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Calibri";
+  font-size: 0.8vw;
+}
+.footer-links-container ul {
+  list-style: none;
+  padding: 2vh 5vw;
+}
+.footer-links-container span {
+  padding: 0 5vw;
+}
+.custom-border {
+  position: relative;
+}
+.custom-border:after {
+  content: " ";
+  position: absolute;
+  border-left: 1px #6c757d solid;
+  top: 10%;
+  right: 0;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer-subscribe {
+  color: white;
+}
+.footer-subscribe-header {
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  font-size: 1vw;
+  word-spacing: 0.2em;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+.footer-subscribe-input input {
+  padding: 2vh 1vw;
+  background-color: #00213d;
+  border-radius: 1vw 0 0 0;
+  border: none;
+  color: white;
+  width: 20vw;
+}
+.footer-subscribe-input button {
+  background-color: #66c4d1;
+  color: #012c52;
+  font-family: "Gill Sans";
+  padding: 2vh 2vw;
+  border: none;
+}
+.footer-subscribe-input input::placeholder {
+  color: #3a5369;
+  font-family: "Calibri";
+}
+.footer-subscribe-smedia-container {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-subscribe-smedia-links {
+  list-style: none;
+  display: flex;
+  margin-left: 1vw;
+}
+.footer-subscribe-smedia-links li {
+  padding: 1vh 0.5vw 0.5vh 0.5vw;
+  margin: 0 0.5vw;
+  background-color: white;
+  color: #012c52;
+}
+.footer-subscribe-smedia-header {
+  align-self: flex-end;
+}
+.copyright-container {
+  padding: 1vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.5vw;
+  background-color: #00213d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  margin: 0 auto;
+}
+.copyright-right span {
+  padding: 0 1vw;
+}
+.copyright-right span:nth-child(1) {
+  border-right: 1px solid white;
+}
+.copyright-right span:nth-child(2) {
+  padding-right: 0;
+}

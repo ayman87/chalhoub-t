@@ -1,0 +1,154 @@
+/* .desktop {
+  display: none;
+} */
+.container {
+  padding-top: 2vh;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+.nav-left {
+  justify-content: flex-start;
+}
+.nav-right {
+  justify-content: flex-end;
+}
+.container-top .nav-item {
+  font-family: "Calibri";
+  color: #706f6e;
+}
+.nav-item {
+  color: white;
+  font-family: "Gill Sans";
+}
+.nav-item svg {
+  color: white;
+  vertical-align: bottom;
+  margin-right: 5px;
+  font-size: 6vw;
+}
+.nav-logo {
+  margin-left: -5vw;
+}
+.nav-logo img {
+  width: 30vw;
+}
+.active {
+  background: #1c2237;
+  left: 0;
+  opacity: 1;
+  transition: all 0.6s ease;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  color: white;
+}
+.active-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all ease-in 0.3s;
+}
+.active-links {
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+@media screen and (min-width: 450px) {
+  .desktop {
+    padding-bottom: 1vh;
+  }
+  .desktop::after {
+    border-bottom: 1px solid transparent;
+    content: "";
+    display: block;
+    padding-top: 1vh;
+    width: 88%;
+    margin: 0 auto;
+  }
+  .desktop-scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding-bottom: 1vh;
+    z-index: 10;
+  }
+  .desktop-scroll::after {
+    border-bottom: 1px solid lightgrey;
+    content: "";
+    display: block;
+    padding-top: 1vh;
+    width: 88%;
+    margin: 0 auto;
+  }
+  .container {
+    position: relative;
+  }
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+  .container-top .nav-item {
+    font-size: 0.8vw;
+    letter-spacing: 0.1em;
+  }
+  .nav-item svg {
+    font-size: 1vw;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-right {
+    width: 28vw;
+  }
+  .nav-left {
+    width: 30vw;
+  }
+  .nav-item {
+    font-size: 1vw;
+    letter-spacing: 0.2em;
+  }
+  .nav-top-left {
+    width: 15vw;
+  }
+  .nav-top-right {
+    width: 10vw;
+  }
+  .nav-logo {
+    margin-left: -5vw;
+    position: absolute;
+    left: 50%;
+    bottom: -3%;
+  }
+  .nav-logo img {
+    width: 10vw;
+  }
+  .container {
+    padding-top: 10vh;
+  }
+  .container-top {
+    padding-top: 6vh;
+  }
+  .desktop-scroll .container-scroll li {
+    color: #003c6c;
+  }
+  .desktop-scroll .container-scroll svg {
+    color: #5dbfdc;
+  }
+}

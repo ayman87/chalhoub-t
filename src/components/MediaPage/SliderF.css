@@ -1,0 +1,20 @@
+.media__section-container .slider-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.media__section-container .slick-slide img {
+  width: 100%;
+  border-radius: 0;
+}
+
+.media__section-container .slick-next,
+.media__section-container .slick-prev {
+  width: auto;
+}
+.media__section-container .slick-next svg,
+.media__section-container .slick-prev svg {
+  color: #b5b5b5;
+}
+.media__section-container .slick-dots {
+  bottom: 5%;
+}
