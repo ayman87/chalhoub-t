@@ -6,7 +6,11 @@
 }
 @font-face {
   font-family: "Calibri";
-  src: url(fonts/CALIBRI.ttf);
+  src: url(fonts/CALIBRI.woff);
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url(fonts/GillSans-Light.woff);
 }
 
 .home-container,
