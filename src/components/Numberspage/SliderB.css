@@ -1,6 +1,12 @@
 .slider-container {
   text-align: center;
 }
+.numbers__section-container .slider-container img {
+  padding-bottom: 2vh;
+}
+.numbers__section-container .slider-container span {
+  font-size: 5vw;
+}
 .slick-arrow {
   z-index: 1;
 }
@@ -41,13 +47,13 @@
 .slider-container h4 {
   font-family: "Gill Sans";
   color: #002a55;
-  font-weight: normal;
+  font-weight: bold;
 }
 .slider-container span {
   font-family: "Gill Sans";
   color: #002a55;
   font-size: 7vw;
-  font-weight: normal;
+  font-weight: bold;
 }
 .slider-container .slide-toptext {
   font-family: "Gill Sans";
@@ -56,11 +62,25 @@
   font-weight: normal;
   vertical-align: top;
 }
-.slider-container .slide-subtext {
+.numbers__section-container .slider-container .slide-subtext {
   font-family: "Gill Sans";
   color: #002a55;
   font-size: 2vw;
   font-weight: normal;
   vertical-align: text-bottom;
-  line-height: 9vh;
+  line-height: 5vh;
+}
+@media screen and (max-width: 450px) {
+  .numbers__section-container .slider-container .slide-subtext {
+    line-height: 2vh;
+  }
+  .numbers__section-container .slider-container .slide-subtext {
+    font-size: 3vw;
+  }
+  .numbers__section-container .slider-container h4 {
+    font-size: 3vw;
+  }
+  .numbers__section-container .slick-dots {
+    bottom: -30%;
+  }
 }

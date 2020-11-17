@@ -46,3 +46,9 @@
   vertical-align: middle;
   width: 100%;
 }
+@media screen and (max-width: 450px) {
+  .social__section-container .social__section-header {
+    font-size: 10vw;
+    font-weight: bold;
+  }
+}

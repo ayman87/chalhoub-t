@@ -7,16 +7,17 @@
   padding-bottom: 5vh;
 }
 .number__section-header h1 {
-  font-size: 7vw;
+  font-size: 6vw;
   color: #003464;
   font-family: "Gill Sans";
+  letter-spacing: 0.2em;
 }
 .number__section-header h2 {
   font-size: 4vw;
   color: #23a8cc;
   font-family: "Gill Sans";
   font-weight: lighter;
-  word-spacing: 1vw;
+  letter-spacing: 0.2em;
 }
 @media screen and (max-width: 450px) {
   .numbers__section-container {

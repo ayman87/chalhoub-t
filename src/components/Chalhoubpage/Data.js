@@ -1,4 +1,4 @@
-import chalhoub from "../../images/chalhoub.png";
+import chalhoub from "../../images/chalhoub.jpg";
 export const homeObjOne = {
   heading: "CHALHOUB",
   subHeading: "GROUP",

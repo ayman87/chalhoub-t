@@ -1,15 +1,15 @@
 import React from "react";
 import "./Social.css";
-import Social1 from "../../images/social1.png";
-import Social2 from "../../images/social2.png";
-import Social3 from "../../images/social3.png";
-import Social4 from "../../images/social4.png";
-import Social5 from "../../images/social5.png";
-import Social6 from "../../images/social6.png";
-import Social7 from "../../images/social7.png";
-import Social8 from "../../images/social8.png";
-import Social9 from "../../images/social9.png";
-import Social10 from "../../images/social10.png";
+import Social1 from "../../images/social1.jpg";
+import Social2 from "../../images/social2.jpg";
+import Social3 from "../../images/social3.jpg";
+import Social4 from "../../images/social4.jpg";
+import Social5 from "../../images/social5.jpg";
+import Social6 from "../../images/social6.jpg";
+import Social7 from "../../images/social7.jpg";
+import Social8 from "../../images/social8.jpg";
+import Social9 from "../../images/social9.jpg";
+import Social10 from "../../images/social10.jpg";
 
 function Social() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./components/Home";
-import SectionA from "./components/Homepage/Home";
+import SectionA from "./components/Chalhoubpage/Home";
 import SectionB from "./components/Numberspage/Numbers";
 import SectionC from "./components/ActivitiesPage/Activities";
 import SectionD from "./components/VenturePage/Venture";

@@ -4,9 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import slide1 from "../../images/sustainability2.png";
-import slide2 from "../../images/sustainability3.png";
-import slide3 from "../../images/sustainability1.png";
+import slide1 from "../../images/sustainability2.jpg";
+import slide2 from "../../images/sustainability3.jpg";
+import slide3 from "../../images/sustainability1.jpg";
+import { useMediaQuery } from "react-responsive";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -28,6 +29,9 @@ function SamplePrevArrow(props) {
 
 function SliderE() {
   //   const centerRef = useRef(false);
+  const isDesktop = useMediaQuery({ query: "(min-device-width: 1024px)" });
+  const isTablet = useMediaQuery({ query: "(min-device-width: 768px)" });
+  const slideCount = isDesktop ? 3 : isTablet ? 2 : 1;
   const settings = {
     className: "center",
     centerMode: true,
@@ -35,7 +39,7 @@ function SliderE() {
     infinite: true,
     centerPadding: 0,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slideCount,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,

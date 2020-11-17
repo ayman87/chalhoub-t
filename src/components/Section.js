@@ -8,6 +8,7 @@ function Section({
   subHeading,
   desc,
   descTwo,
+  wrapperDirection,
   rad,
   img,
   alt,
@@ -79,7 +80,17 @@ function Section({
               </div>
             </div>
             <div className="col">
-              <div className="section-img-wrapper">
+              <div
+                className="section-img-wrapper"
+                style={{
+                  margin:
+                    wrapperDirection === "left"
+                      ? "0 auto 0 0"
+                      : wrapperDirection === "right"
+                      ? "0 0 0 auto"
+                      : "0 auto",
+                }}
+              >
                 <div
                   className="section-img-mask"
                   style={{

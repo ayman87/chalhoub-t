@@ -3,13 +3,14 @@
 }
 .venture__section-tabs-wrapper {
   position: relative;
+  padding: 10vh 0;
 }
 .venture__section-header {
   text-align: center;
   font-size: 6vw;
   color: #004874;
   font-family: "Gill Sans";
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 0.2em;
 }
 .venture__section-tabs-container {
@@ -24,9 +25,9 @@
 }
 .venture__section-tabs-container .react-tabs__tab {
   border: transparent;
-  margin: 0 5vw auto;
+  margin: 0 4vw auto;
   font-family: "Calibri";
-  font-size: 1vw;
+  font-size: 1.2vw;
   color: #004874;
   padding: 1vh 0;
   background-color: transparent;
@@ -115,14 +116,14 @@
     white-space: nowrap;
   }
   .venture__section-tabs-container .react-tabs__tab {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .venture__section-tab-img-container {
     width: auto;
     padding: 3vh 0;
     background-color: #abafb3;
   }
-  .venture__section-tab-img {
+  .venture__section-tab-img-container img {
     display: none;
   }
   .venture__section-tab-text-container {
@@ -150,6 +151,7 @@
   .venture__section-container .section-btn img {
     transform: translate(9vw, 0px);
     padding: 0.9vw;
+    display: inline-block;
   }
   .venture__section-cards {
     padding: 10vh 5vw 2vh 5vw;
@@ -167,5 +169,8 @@
   .venture__section-container .card-img-container {
     width: 50vw;
     height: 30vh;
+  }
+  .venture__section-container .venture__section-cards {
+    margin: 100px 0 0 0;
   }
 }

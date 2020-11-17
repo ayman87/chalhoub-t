@@ -41,7 +41,7 @@ export default class MultipleItems extends Component {
         <Slider {...settings}>
           <div>
             <img src={slide1} alt="slide1" />
-            <h3>1955</h3>
+            <span>1955</span>
             <h4>ESTABLISHED</h4>
           </div>
           <div>
@@ -59,21 +59,21 @@ export default class MultipleItems extends Component {
           </div>
           <div>
             <img src={slide1} alt="slide1" />
+            <span>1955</span>
+            <h4>ESTABLISHED</h4>
           </div>
           <div>
             <img src={slide2} alt="slide2" />
+            <span>750</span>
+            <span className="slide-toptext">+</span>
+            <h4>RETAIL OUTLET</h4>
+            <h4>ACROSS THE REGION</h4>
           </div>
           <div>
             <img src={slide3} alt="slide3" />
-          </div>
-          <div>
-            <img src={slide1} alt="slide1" />
-          </div>
-          <div>
-            <img src={slide2} alt="slide2" />
-          </div>
-          <div>
-            <img src={slide3} alt="slide3" />
+            <span>76k</span>
+            <span className="slide-subtext">sqm</span>
+            <h4>WAREHOUSE SPACE</h4>
           </div>
         </Slider>
       </div>

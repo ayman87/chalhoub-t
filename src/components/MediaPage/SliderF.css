@@ -18,3 +18,12 @@
 .media__section-container .slick-dots {
   bottom: 5%;
 }
+
+@media screen and (max-width: 450px) {
+  .media__section-container .slick-dots {
+    bottom: -5%;
+  }
+  .media__section-container .slick-dots li button::before {
+    font-size: 2vw;
+  }
+}

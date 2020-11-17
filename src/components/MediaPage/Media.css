@@ -8,7 +8,7 @@
   font-size: 6vw;
   color: #003764;
   font-family: "Gill Sans";
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 0.2em;
 }
 .media__section-tabs-container {
@@ -78,4 +78,50 @@
 }
 .media__section-container .section-text-wrapper {
   transform: translate(0);
+}
+
+@media screen and (max-width: 450px) {
+  .media__section-container .section-container {
+    padding-bottom: 4vh;
+  }
+  .media__section-header {
+    font-size: 10vw;
+    letter-spacing: 0.1em;
+  }
+  .media__section-tabs-container .react-tabs__tab {
+    margin: 0 4vw 0 auto;
+    font-family: "Gill Sans";
+    font-size: 4vw;
+  }
+
+  .media__section-container .section-btn {
+    order: 4;
+    font-size: 3vw;
+    padding: 1vh 5vw 1vh 3vw;
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .media__section-container .section-btn .btn-img {
+    transform: translate(18vw, 0px);
+    padding: 2vw;
+  }
+  .media__section-container .section-header-container {
+    order: unset;
+  }
+  .media__section-container .section-img-wrapper {
+    order: -1;
+  }
+  .media__section-container .section-heading {
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 0 2vw 5vh;
+    text-align: center;
+    line-height: 3.5vh;
+  }
+  .media__section-container .section-subHeading {
+    padding: 0;
+  }
+  .media__section-container .section-description {
+    display: none;
+  }
 }

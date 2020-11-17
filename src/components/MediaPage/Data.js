@@ -1,5 +1,5 @@
-import media from "../../images/media1.png";
-import media2 from "../../images/activities2.png";
+import media from "../../images/media1.jpg";
+import media2 from "../../images/activities2.jpg";
 
 export const MediaObjOne = {
   heading:

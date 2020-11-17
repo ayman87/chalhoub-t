@@ -3,7 +3,7 @@ import "./Venture.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import learnMoreArrow from "../../images/learnMoreArrow.png";
-import venture from "../../images/venture.png";
+import venture from "../../images/venture.jpg";
 import Card from "../card";
 import { VentureObjOne } from "./Data";
 import { VentureObjTwo } from "./Data";

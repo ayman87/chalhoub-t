@@ -1,15 +1,13 @@
 .section-container {
-  padding: 10vh 0 5vh 0;
+  padding: 10vh 0 15vh 0;
 }
 .section-row {
   align-items: center;
 }
 .row {
   display: flex;
-  padding-top: 12vh;
   flex-wrap: wrap;
   align-content: stretch;
-  padding-bottom: 15vh;
 }
 .col {
   margin-bottom: 1vh;
@@ -26,20 +24,20 @@
 }
 .section-heading {
   color: #003c6c;
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Gill Sans";
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 0.1em;
 }
 .section-subHeading {
   color: #4db5d7;
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Gill Sans";
   font-weight: lighter;
 }
 .section-description {
   color: #003c6c;
-  font-size: 1vw;
+  font-size: 1.2vw;
   padding-top: 3vh;
   font-family: "Calibri";
 }
@@ -48,7 +46,6 @@
 }
 .section-img-wrapper {
   max-width: 30vw;
-  margin: 0 auto;
   position: relative;
 }
 .section-img-mask {
@@ -65,7 +62,7 @@
 .section-img-wrapper .section-img {
   max-width: 80%;
   padding-right: 0;
-  margin: 0 0 0 1vw;
+  margin: 0 0 0 1.5vw;
 }
 .section-btn {
   padding: 1vh 5vw 1vh 2vw;

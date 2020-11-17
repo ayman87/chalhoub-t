@@ -87,3 +87,20 @@
 .slide-link {
   display: none;
 }
+
+@media screen and (max-width: 450px) {
+  .sustainability__section-slider-container .slide-img {
+    height: 175px;
+    width: 175px;
+  }
+  .sustainability__section-slider-container .slide-mask .slide-desc {
+    font-size: 2vw;
+    width: 80%;
+  }
+  .sustainability__section-slider-container .slide-header {
+    font-size: 3vw;
+  }
+  .sustainability__section-slider-container .slick-dots {
+    bottom: -15%;
+  }
+}

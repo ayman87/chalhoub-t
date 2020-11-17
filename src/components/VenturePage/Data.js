@@ -1,6 +1,6 @@
-import venture1 from "../../images/venture2.png";
-import venture2 from "../../images/venture3.png";
-import venture3 from "../../images/venture4.png";
+import venture1 from "../../images/venture2.jpg";
+import venture2 from "../../images/venture3.jpg";
+import venture3 from "../../images/venture4.jpg";
 
 export const VentureObjOne = {
   text: "OUR OWN CONCEPTS",
